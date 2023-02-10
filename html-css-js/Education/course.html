@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>course</title>
+	<style type="text/css">
+body{margin: 0px;padding: 0px}
+
+.container{
+	width: 100%;
+	
+	background-color: white;
+	color: black;
+}
+.flex-container{
+	
+	height: 30px;
+	background-color:red;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+}
+.flex-container a{
+	text-decoration: none;
+	color: white;
+}
+.flex-container h5{
+	margin-top: 6px;
+	font-size: 15px;
+}
+
+.nav2{
+	display: flex;
+  flex-wrap: wrap;
+   color: black;
+	width: 100%;
+	height: 50px;
+	background: green;
+	position:fixed;
+
+
+}
+.flex-container h5:hover{
+	color: white;
+	font-size: 20px;
+}
+.flex-container a{
+	text-decoration: none;
+	color: white;
+}
+.flex-container a:hover{
+	color: white;
+	width: 80px;
+	background-color: ;
+	font-size: 20px;
+}
+.nav2 div a:hover{
+	color: black;
+	width: 120px;
+	height: 40px;
+}
+.nav2 div {
+  font-weight: 100;
+  padding: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  color: black;
+  background-color: red;
+}
+.nav2 div a{
+	text-decoration: none;
+	color: black;
+}
+.sidd {
+	color: red;
+
+}
+.login{
+	font-size: 15px;
+	background-color: red;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius:  20px ;
+	border: 1px solid white;
+}
+.login:hover{
+	background-color: black;
+	color: white;
+}
+body{
+			/*background: url("https://st.depositphotos.com/1017986/2807/i/950/depositphotos_28072165-stock-photo-students-showing-thumbs-up-at.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;*/
+		}
+		.container1{
+			display: flex;
+			justify-content: space-around;
+		}
+		.box{
+			width: 30%;
+			height: 600px;
+			background-color: darkred;
+			
+			color: white;
+			margin-top: 150px;
+			margin-left: -700px;
+		}
+		.container1 h1{
+			color: white;
+			margin-top: 30px;
+		}
+		.box input{
+			width: 300px;
+			height: 30px;
+			margin-top: 20px;
+			margin-left:80px;
+		}
+		
+		.box button{
+			margin-left: 120px;
+			width: 200px;
+			height: 20px;
+			padding: 25px;
+			color: white;
+			background: black;
+			border: 1px solid white;
+			border-radius: 40px;
+			margin-top: 10px;
+			text-align: center;
+			font-size: 15px;
+		}
+		.account{
+			background-color: ;
+			margin-top: 30px;
+			color: black;
+		}
+		.account h1{
+			color: black;
+			margin-left: 80px;
+		}
+		.account p{
+			margin-left: 80px;
+			font-size: 20px;
+		}
+		.account button{
+			margin-left: 80px;
+			border-radius: 20px;
+			background-color: white;
+			color: black;
+			height: 40px;
+			width: 100px;
+		}
+		.account1{
+			background-color: lightgray;
+			
+			color: black;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- container is started -->
+	<div class="container">
+		<!-- flex container is started -->
+
+	<div class="flex-container">
+	<div style="flex-grow:3";><h5>Education is a future for tomorrow</h5></div>
+	<div style="flex-grow: 1";><a href="alumni.html">Alumni</a></div>
+	<div style="flex-grow: 1";><a href="calendar.html">Calendar</a></div>
+	<div style="flex-grow: 1";><a href="">Portal</a></div>
+	</div>
+	<!-- nav1 is started -->
+<br><br><br>
+		<div class="nav2">
+	
+	 	<div style="flex-grow: 7;" class="sidd">SIDDHARTHA</div>
+  
+  		<div style="flex-grow: 1"><a href="index.html">Home</a></div>	
+		<div style="flex-grow: 1"><a href="page.html">Pages</a> </div>
+		<div style="flex-grow: 1"><a href="course.html">course</a></div>	
+		<div style="flex-grow: 1"><a href="academics.html">Academics</a></div> 
+		<div style="flex-grow: 1"><a href="atheletics.html">Atheletics</a></div>
+		<div style="flex-grow: 1"><a href="sports.html">Sports</a></div>
+		<div style="flex-grow: 1"><a href="university.html">University Life</a></div>
+	</div> 
+	</div>
+	<!-- container1 started -->
+		<div class="container1">
+		<div>
+		<h1 style="color:black;font-size: 40px; float: right;margin-top: 60px;">Search For Courses</h1>
+		</div>
+		<div class="box">
+		<form  name="form" method="post" onsubmit=" saysubmit()">
+		<div>
+		</div>
+		<input type="text" name=" Name" placeholder="ACC101" > <br>
+		<input type="text" name="Father Name" placeholder="Course ID"> <br>
+		<input type="text" name="MotherName" placeholder=" Department"> <br>
+		<input type="" name="text" placeholder="Campus" ><br>
+		<input type="number" name="Date of Birth" placeholder=" Level" ><br>
+		<input type="text" name="Gmail" placeholder="Instructor"  ><br>
+		<input type="text" name="Aadhaar" placeholder="Semester" ><br>
+		<input type="text" name="Department" placeholder="Credit"><br>
+		<input type="text" name="Department" placeholder="Method"><br>
+		<button>Search for courses</button>
+		</form> 
+		</div>
+		<div class="account">
+			<div class="account1">
+			<h1>ACC101</h1>
+			<h1>Introduction to Financial Accounting</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus : KU2 Hill</p>
+			<p>Level : Undergraduate</p>
+			<p>Instructor : Carol Dawson (PhD)</p>
+			<p>Semester : Fall 2023</p>
+			<p>Credit : 4.000</p>
+			<p>Method : Lecture</p>
+			<button>More Details</button>
+			</div>
+			<div class="account1"><h1>ACC402</h1>
+			<h1>Intermediate Accounting I</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus : Siddhartha 80</p>
+			<p>Level : Graduate</p>
+			<p>Instructor : Angelina Jones (PhD)</p>
+			<p>Semester : Spring 2023</p>
+			<p>Credit : 4.000</p>
+			<p>Method : Online,Seminar</p>
+			<button>More Details</button></div>
+			<div class="account1">
+				<h1>ACC302</h1>
+				<h1>Contemporary Accounting Topics</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus : Siddhartha 80</p>
+			<p>Level : Under Graduate</p>
+			<p>Instructor : Carol Dawson (PhD)</p>
+			<p>Semester : Spring 2023</p>
+			<p>Credit : 4.000</p>
+			<p>Method : Lecture,Seminar</p>
+			<button>More Details</button>
+			</div>
+			<div class="account1">
+				<h1>ACC402</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus :Adman's Hall </p>
+			<p>Level : Under Graduate</p>
+			<p>Instructor : Bruce Willis (PhD)</p>
+			<p>Semester : Spring 2023</p>
+			<p>Credit : 2.000</p>
+			<p>Method : Lecture,online</p>
+			<button>More Details</button>
+			</div>
+			<div class="account1">
+				<h1>ITT203</h1>
+				<h1>Introduction to Taxation</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus : Siddhartha 80</p>
+			<p>Level : Under Graduate</p>
+			<p>Instructor : Bruce Willis (PhD)</p>
+			<p>Semester : Spring 2023</p>
+			<p>Credit : 3.000</p>
+			<p>Method : Lecture,Online</p>
+			<button>More Details</button>
+			</div>
+			<div class="account1">
+				<h1>ASC103</h1>
+				<h1>Accounting Systems and Auditing</h1>
+			<p>Department : Business Adminstration</p>	
+			<p>Campus : KU2 Hill</p>
+			<p>Level :  Graduate</p>
+			<p>Instructor : Angelina Jones (PhD</p>
+			<p>Semester : Spring 2023</p>
+			<p>Credit : 4.000</p>
+			<p>Method : Lecture</p>
+			<button>More Details</button>
+			</div>
+		</div>
+		</div>
+<div>
+</body>
+</html>
