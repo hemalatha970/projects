@@ -1,0 +1,361 @@
+body{margin: 0px;padding: 0px}
+
+.container{
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+.flex-container{
+	
+	height: 30px;
+	background-color:red;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	position: fixed;
+	width: 100%
+}
+.flex-container a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.flex-container h5{
+	margin-top: 6px;
+	font-size: 15px;
+}
+
+.nav2{
+	display: flex;
+  flex-wrap: wrap;
+color: black;
+	width: 100%;
+	height: 70px;
+	background: red;
+	position:fixed;
+z-index: 10px;
+}
+.flex-container h5:hover{
+	color: white;
+	font-size: 20px;
+}
+.flex-container a{
+	text-decoration: none;
+	color: white;
+}
+.flex-container a:hover{
+	color: white;
+	width: 80px;
+	background-color: ;
+	font-size: 20px;
+}
+.nav2 div a:hover{
+	color: black;
+	width: 120px;
+	height: 40px;
+}
+.nav2 div {
+  font-weight: 100;
+  padding: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+}
+.nav2 div a{
+	text-decoration: none;
+	color: white;
+	margin-top:20px;
+}
+.sidd {
+	color: white;
+}
+.content {
+	margin-top: 50px;
+	width: 100%; 
+	height: 700px;
+	background-image: url("https://www.uhasselt.be/media/3tybaf5h/15_03_18_shoot_diepenbeek_017.jpg?center=0.41736844180570737,0.50125313283208017&mode=crop&width=1200&height=1200");
+	background-repeat: no-repeat;	
+	background-size: cover;	
+}
+.content:hover{
+	background-image: url("https://d2ub1k1pknil0e.cloudfront.net/media/images/procession-graduation-wellington-2021-048.width-1200.jpg");
+}
+.text{
+	padding: 200px;
+	color: white;
+	padding-right: 50px;
+}
+.text b{
+	color: green;
+}
+.text h1{
+	margin-left: -5px;
+	font-weight: 1000px;
+}
+.text h3{
+	font-size: 25px;
+}
+.text p{
+	font-weight: 100px;
+	font-size: 20px;
+}
+.login{
+	font-size: 20px;
+	background-color: red;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius:  20px ;
+	border: 1px solid white;
+}
+.login:hover{
+	background-color: black;
+	color: white;
+}
+.login a{
+	text-decoration: none;
+	color: white;
+}
+.box{
+	width: 100%;
+	height: 250px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+.item1{
+width: 220px;
+height: 200px;
+background-color: red;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+}
+.item1 p{
+	margin-top:-30px;
+	font-size: 20px;
+}
+.item1 h3{
+	margin-top:10px;
+}
+.item2{
+width: 220px;
+height: 200px;
+background-color: red;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+}
+.item2 p{
+	margin-top:-30px;
+	font-size: 20px;
+}
+.item2 h3{
+	margin-top:10px;
+}
+.item3{
+width: 220px;
+height: 200px;
+background-color: red;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+}
+.item3 :hover{
+
+}
+.item3 p{
+	margin-top:-30px;
+	font-size: 20px;
+}
+.item3 h3{
+	margin-top:10px;
+}
+.item4{
+width: 220px;
+height: 200px;
+background-color: red;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+}
+.item4 :hover{
+
+}
+.item4 p{
+	margin-top:-30px;
+	font-size: 20px;
+}
+.item4 h3{
+	margin-top:10px;
+}
+.icon{
+	padding: 5px;
+}
+.social{
+	width: 80%;
+	height: 200px;
+	background-color: darkred;
+	color: white;
+	margin-left: 160px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.social h3 {
+	font-size: 20px;
+}
+.social p{
+	font-size: 20px;
+}
+
+.social div{
+	margin-top: 60px;
+}
+.social:hover{
+	background-color: white;
+	color: black;
+}
+.admission{
+	margin: 0px;
+	width: 100%;
+	height: 500px;
+	background-color:white;
+	display: flex;
+	justify-content: space-around;
+	/*border: 1px solid black;*/
+
+}
+.admiss{
+	margin-top: 0px;
+	display: flex;
+	width: 80%;
+	height: 397px;
+	background-color: red;
+	/*opacity: 0.6;*/
+	color: white;
+	box-shadow: 0px 0px 32px rgba(0,0,.2);
+	 transition:  .2s ease;
+	 margin-left: 10px;
+}
+.admiss h1 {
+	margin: 40px;
+	font-size: 30px;
+}
+.admiss h3  {
+	padding-left: 40px;
+	font-size: 30px;
+}
+.admiss p  {
+	padding-left: 40px;
+	font-size: 20px;
+}
+.admiss button  {
+	margin: 40px;
+	width: 100px;
+	height: 40px;
+	color: red;
+	border-radius: 20px;
+	border: 1px solid white;
+	font-size: 20px;
+	background-color:white ;
+}
+.admiss button:hover{
+	color: black;
+	background-color:white;
+}
+.homepage{
+	width: 100%;
+	height: 400px;
+	background-color:white ;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 30px;
+}
+.homepage:hover{
+	background-color:lightgray ;
+	color: black;
+}
+.homepage div{
+margin-left: 60px;
+margin-top: 80px;
+font-size: 15px;
+}
+.homepage h1{
+	margin-top: 40px;
+}
+.footer{
+	width: 100%;
+	height: 350px;
+	background-color: black;
+	color: white;
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.about{
+	margin-top: 20px;
+}
+.about a{
+	color: red;
+	text-decoration: none;
+}
+.about p{
+	margin-top: -20px;
+	color: white;
+}
+.about h4{color: white;}
+
+.footer p{
+	font-size: 17px;
+}
+.contact{
+	margin-top: 20px;
+}
+.contact h4,p{
+	margin-top: -20px;
+	font-size: 17px;
+}
+.contact a{
+	color: white;
+	text-decoration: none;
+    font-size: 17px;	
+}
+
+.useful{
+	margin-top: 20px;
+}
+.useful a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.Campus{
+	margin-top: 20px;
+}
+
+.Campus a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.foot{
+	background-color: black;
+	width: 100%;
+	height: 20px;
+}
+.foot a{
+text-decoration: none;
+color: white;
+padding-left: 600px;
+font-size: 17px;
+}
+/*style sheet ended*/
+/*media queries is started*/
